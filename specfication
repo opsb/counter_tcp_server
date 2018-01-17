@@ -1,0 +1,7 @@
+- Write a server that listens for incoming TCP connections.
+- Upon receiving a connection, it should spawn a GenServer to track a counter
+- A client can send `INCREMENT` or `DECREMENT` commands to increment or decrement the counter
+- A client can send `READ` command to read the current value of the counter
+- The server can handle multiple connections, each with its own counter
+- Invalid commands are responded to with an error message
+- README explains how to test the server manually
